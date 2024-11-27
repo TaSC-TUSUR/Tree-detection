@@ -1,0 +1,13 @@
+train: /home/st3pegor/Projects/gpo/Tree-detection/templates/Tree Detection.v6i.yolov8/train
+val: /home/st3pegor/Projects/gpo/Tree-detection/templates/Tree Detection.v6i.yolov8/valid
+test: /home/st3pegor/Projects/gpo/Tree-detection/templates/Tree Detection.v6i.yolov8/test
+
+nc: 1
+names: ['tree']
+
+roboflow:
+  workspace: trea-ebanoe
+  project: tree-detection-tjg8z
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trea-ebanoe/tree-detection-tjg8z/dataset/3
