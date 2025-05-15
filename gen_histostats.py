@@ -54,9 +54,6 @@ for filename in os.listdir('dataset/train/images'):
     g_data = zero_cost(g_channel.ravel())
     b_data = zero_cost(b_channel.ravel())
 
-    r_scaled = ch_size(r_data, 99.82282989220326)
-    g_scaled = ch_size(g_data, 124.5)
-    b_scaled = ch_size(b_data, 41.7)
 
     # Статистика
     r_stats = calculate_statistics(r_data)
